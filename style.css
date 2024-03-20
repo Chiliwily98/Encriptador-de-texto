@@ -1,0 +1,179 @@
+*{
+    background-color: #EFF1FA;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+header{
+    display: inline-block;
+}
+/* body{
+    height: 100vh;
+} */
+
+.logo-alura{
+   margin: 40px auto auto 40px; 
+   display: inline;
+}
+.principal{
+    display: inline-block;
+}
+.principal>textarea{
+   resize: none;
+   width: 577px;
+   height: 577px;
+   font-size: 32px;
+   margin: 77px auto auto 240px;
+   border: none;
+   outline: none;
+
+}
+.texto-principal::placeholder{
+    color: #0A3871;
+}
+.logo-advertencia{
+    vertical-align: middle;
+    margin: auto auto auto 240px;
+
+}
+.condiciones{
+    display: inline;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.botones{
+    margin: auto auto auto 240px;   
+    
+}
+button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    border: 1px solid  #0A3871
+    
+}
+button:first-child{
+    margin:16px 12px 0 0;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    box-shadow:  0 5px 15px 0 #000000 ;
+   
+    
+}
+button:last-child{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    box-shadow:  0 5px 15px 0 #000000 ;
+    
+}
+.secundario{
+    width: 400px;
+    height: 944px;
+    float: right;
+    background-color: #FFFFFF;
+    margin: -51px 40px 40px;
+    border-radius: 32px;
+    
+}
+.muñeco{
+    background-color: #FFFFFF;
+    margin: 243px 32px 32px ;
+}
+
+.texto1,.texto2{
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #343A40;
+}
+.texto1{
+    font-weight: bold;
+    font-size: 24px;
+    margin:  0 32px;
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+.texto2{
+    margin:  0 32px;
+    padding: 10px 10px;
+}
+
+@media screen and  (min-width: 426px) and (max-width: 768px) {
+    .logo-alura{
+        margin:73.42px auto auto 40px;
+    }
+    .principal{
+        margin: auto;
+    }
+    .principal>textarea{
+        margin: 116px 40px 100px 40px;
+        height: 400px;
+        width: 95%;
+    }
+    button{
+        width: 330px;
+    }
+    .botones{
+        margin-left: 40px;
+    }
+    .logo-advertencia{
+        margin-left: 40px;
+    }
+    .secundario{
+        height: 133px;
+        width: 688px;
+        float: none;
+        margin: 68px 40px 40px 40px;
+
+    }
+    .muñeco{
+        width: 0;
+        margin: 0;
+    }
+    .secundario>p{
+        margin: 16px 32px;
+    }
+}   
+
+
+@media screen and  (min-width: 319px) and (max-width: 425px){
+    .principal>textarea{
+        margin: 56px 16px;
+        height: 400px;
+    }
+    .principal{
+     margin: 0;
+    }
+    .logo-advertencia{
+     margin-left: 16px;
+    }
+    .botones{
+     margin-left: 16px;
+     height: auto;
+     width: 343px;
+    }
+
+    button:first-child{
+        margin-bottom: 12px;
+        box-shadow: none;
+    }
+    button:last-child{
+     margin-top: 12px;
+     box-shadow: none;
+    }
+    .muñeco{
+        width: 0;
+        height: 0;
+        margin: 0;
+       }
+    
+    .secundario{
+     width: 327px;
+     height: 186px;
+     margin: 40px 24px;
+     align-items: center;    
+    }
+    .texto1{
+        margin-top: 20px;
+    }
+   
+} 
