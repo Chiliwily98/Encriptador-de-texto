@@ -139,9 +139,11 @@ button:last-child{
     .principal>textarea{
         margin: 56px 16px;
         height: 400px;
+        width: auto;
     }
     .principal{
      margin: 0;
+     width: auto;
     }
     .logo-advertencia{
      margin-left: 16px;
@@ -170,6 +172,7 @@ button:last-child{
      width: 327px;
      height: 186px;
      margin: 40px 24px;
+     
      align-items: center;    
     }
     .texto1{
